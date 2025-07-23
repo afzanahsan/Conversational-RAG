@@ -1,0 +1,47 @@
+# --- Core ---
+fastapi==0.116.1
+uvicorn==0.35.0
+python-dotenv==1.1.1
+python-multipart==0.0.20
+pydantic==2.11.7
+
+# --- File Parsing / Loaders ---
+pypdf==5.8.0
+PyMuPDF==1.26.3
+docx2txt==0.9
+unstructured==0.18.9
+pymupdf==1.26.3
+pdfminer.six==20250506
+
+# --- LangChain RAG ---
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-core==0.3.69
+langchain-google-genai==2.0.10
+langchain-chroma==0.2.4
+
+# --- Embeddings ---
+google-generativeai==0.8.5
+sentence-transformers==5.0.0
+huggingface-hub==0.33.4
+
+# --- Vector DBs (pick what you use) ---
+chromadb
+
+# --- Supportive ---
+tiktoken==0.9.0         # token counting
+pandas==2.3.1           # optional, for table/text processing
+requests==2.32.4         # needed by many APIs
+beautifulsoup4==4.13.4   # required by some Unstructured parsers
+lxml==6.0.0             # same as above
+markdown==3.8.2         # if using MarkdownLoader
+typing-inspect==0.9.0   # LangChain dependency
+scikit-learn==1.7.1     # often used with embedding pipelines
+tqdm==4.67.1
+python-multipart==0.0.20
+# numpy==1.26.4
+
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+torchaudio==2.1.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
