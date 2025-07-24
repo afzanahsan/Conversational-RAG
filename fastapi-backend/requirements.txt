@@ -39,7 +39,7 @@ typing-inspect==0.9.0   # LangChain dependency
 scikit-learn==1.7.1     # often used with embedding pipelines
 tqdm==4.67.1
 python-multipart==0.0.20
-# numpy==1.26.4
+numpy==1.26.4
 
 torch==2.2.0+cpu
 torchvision==0.17.0+cpu
